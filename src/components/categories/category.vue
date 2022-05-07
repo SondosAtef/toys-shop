@@ -53,6 +53,7 @@ export default {
     console.log(this.header);
     axios.get("http://localhost:2000/toys").then((response) => {
       this.toys = response.data.filter((toy) => toy.category === this.pageName);
+      console.log(this.toys);
     });
   },
   components: {

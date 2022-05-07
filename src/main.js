@@ -8,8 +8,11 @@ import cartComp from "./components/cart.vue";
 import aboutComp from "./components/aboutus.vue";
 import deliveryComp from "./components/delivery.vue";
 import category from "./components/categories/category.vue";
+
 import login from "./components/registeration/loginForm.vue";
 import signup from "./components/registeration/signupForm.vue";
+
+import storeCopm from "./components/store/store.vue"
 
 import { createRouter, createWebHistory } from "vue-router";
 
@@ -66,6 +69,10 @@ const routes = [
   {
     path: "/categories",
     component: "",
+  },
+  {
+    path: "/store",
+    component: storeCopm,
   },
 ];
 const router = createRouter({

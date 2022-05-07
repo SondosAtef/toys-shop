@@ -35,7 +35,6 @@ export default {
     acceptdata(toy){
       console.log(toy)
        this.toys.push(toy)
-      
     }
   }
 }

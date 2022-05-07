@@ -37,7 +37,7 @@
               <router-link
                 class="nav-link active link mx-2"
                 aria-current="page"
-                to="/categories"
+                to="/store"
               >
                 Store</router-link
               >
