@@ -37,8 +37,7 @@ import axios from 'axios'
   border-radius: 30px;
   background-color: #01AFED;
   color: white;
-   padding-left:10px; 
-   padding-right:10px; 
+   padding : 5px 20px ; 
    border-color:white; 
     margin-left:20% ;
 }

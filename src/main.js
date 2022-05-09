@@ -13,6 +13,7 @@ import login from "./components/registeration/loginForm.vue";
 import signup from "./components/registeration/signupForm.vue";
 
 import storeCopm from "./components/store/store.vue"
+import toyDetailsComp from "./components/store/toyDetailes.vue"
 
 import { createRouter, createWebHistory } from "vue-router";
 
@@ -74,6 +75,10 @@ const routes = [
     path: "/store",
     component: storeCopm,
   },
+  {
+    path:'/store/:id',
+    component: toyDetailsComp,
+},
 ];
 const router = createRouter({
   history: createWebHistory(),
